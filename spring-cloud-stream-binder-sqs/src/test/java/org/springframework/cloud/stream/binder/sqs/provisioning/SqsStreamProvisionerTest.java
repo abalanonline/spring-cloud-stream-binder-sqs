@@ -11,6 +11,7 @@ import com.amazonaws.services.sqs.model.QueueAttributeName;
 import org.jetbrains.annotations.NotNull;
 import org.junit.Before;
 import org.junit.ClassRule;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.cloud.stream.binder.ExtendedConsumerProperties;
 import org.springframework.cloud.stream.binder.ExtendedProducerProperties;
@@ -25,6 +26,7 @@ import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Ignore // local Docker
 public class SqsStreamProvisionerTest {
 
     private AmazonSQSAsync sqs;
