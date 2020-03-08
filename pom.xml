@@ -25,7 +25,6 @@
 
     <modules>
         <module>spring-cloud-stream-binder-sqs</module>
-        <module>spring-cloud-stream-binder-sqs-samples</module>
     </modules>
 
     <dependencyManagement>
